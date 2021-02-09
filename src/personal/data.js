@@ -60,6 +60,36 @@ export const projectsData = [
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
+export const blogsData = [
+  {
+    id: nanoid(),
+    img: 'genuine-leader.png',
+    title: 'The Genuine Leader',
+    info: 'A sci-fi short story. What if AI was big brother all along?',
+    url: 'https://mnemonicmaker.netlify.app/',
+    repo: 'https://github.com/seantarzy/Mnemonic-2.0-front-end', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'teacher-to-coder.jpg',
+    title: 'How Teaching Set me up to be a Coder',
+    info:
+      'In this blog post I talk about how teaching helped me become a coder and draw the parallels between pedogogy and programming.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/seantarzy/bitcoin-project-frontend', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'sea-monster-riddle',
+    title: 'Sea Monster Tes-Ed Riddle',
+    info:
+      'TED-Ed riddles flex the same kind of problem-solving muscles excersized in creating apps. I found that there was such a strong link between TED-Ed Riddles and coding, that I decided to bridge the gap even closer.',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+];
 
 // CONTACT DATA
 export const contactData = {

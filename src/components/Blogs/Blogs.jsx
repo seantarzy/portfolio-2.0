@@ -7,7 +7,7 @@ import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
 const Blogs = () => {
-  const { projects } = useContext(PortfolioContext);
+  const { blogs } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,9 +26,9 @@ const Blogs = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
-          {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+          <Title title="Blogs" />
+          {blogs.map((blog) => {
+            const { title, info, info2, url, repo, img, id } = blog;
 
             return (
               <Row key={id}>
