@@ -3,9 +3,9 @@ import GitHubButton from 'react-github-btn';
 
 const GithubButton = () => (
   <>
-    <GitHubButton
+    {/* <GitHubButton
       className="github-button"
-      href="https://github.com/cobidev/gatsby-simplefolio/fork"
+      href="https://github.com/seantarzy"
       data-icon="octicon-repo-forked"
       data-size="large"
       data-show-count="true"
@@ -22,7 +22,7 @@ const GithubButton = () => (
       aria-label="Star cobidev/gatsby-simplefolio on GitHub"
     >
       Star
-    </GitHubButton>
+    </GitHubButton> */}
   </>
 );
 

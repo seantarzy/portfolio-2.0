@@ -6,7 +6,7 @@ import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
 
-const Projects = () => {
+const Blogs = () => {
   const { projects } = useContext(PortfolioContext);
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -30,7 +30,6 @@ const Projects = () => {
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 
-            console.log("image", img)
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
@@ -117,4 +116,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Blogs;

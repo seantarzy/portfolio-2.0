@@ -186,7 +186,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
+      name: 'Medium',
       url: '', // your codepen url
     },
     {
