@@ -52,12 +52,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'babe-ruth.png',
+    title: 'War Games',
+    info:
+      "Like the card game 'War', except using baseball players and a particulair baseball statistic for the card's value",
+    info2: 'Tools Used: Vanilla JS, Ruby on Rails, React-Native',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/seantarzy/war_games', // if no repo, the button will not show up
   },
 ];
 export const blogsData = [
