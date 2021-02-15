@@ -107,8 +107,8 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'Medium',
-      url: '',
+      name: 'medium',
+      url: 'https://seantarzy.medium.com/',
     },
     {
       id: nanoid(),
