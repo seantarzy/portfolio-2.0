@@ -47,7 +47,7 @@ export const projectsData = [
     info:
       "I couldn't buy Bitcoin when I could afford it, so I decided to capitalize on the hype in other ways. A fun site to answer the million dollar question at any moment. In addition to live pricing and conversion rates, this site provides stock graphs, articles and even an item of the day! Check it out.",
     info2: 'Tools Used: React.js, Node.js, Puppeteer (for web scraping),',
-    url: '',
+    // url: '',
     repo: 'https://github.com/seantarzy/bitcoin-project-frontend', // if no repo, the button will not show up
   },
   {
@@ -57,8 +57,8 @@ export const projectsData = [
     info:
       "Like the card game 'War', except using baseball players and a particulair baseball statistic for the card's value",
     info2: 'Tools Used: Vanilla JS, Ruby on Rails, React-Native',
-    url: '',
-    repo: 'https://github.com/seantarzy/war_games', // if no repo, the button will not show up
+    url: 'https://mlbwargames.netlify.app/',
+    repo: 'https://github.com/seantarzy/war-games-2.0-frontend', // if no repo, the button will not show up
   },
 ];
 export const blogsData = [
@@ -67,8 +67,7 @@ export const blogsData = [
     img: 'genuine-leader.png',
     title: 'The Genuine Leader',
     info: 'A sci-fi short story. What if AI was big brother all along?',
-    url: 'https://mnemonicmaker.netlify.app/',
-    repo: 'https://github.com/seantarzy/Mnemonic-2.0-front-end', // if no repo, the button will not show up
+    url: 'https://seantarzy.medium.com/the-genuine-leader-39ed769e5b7c',
   },
   {
     id: nanoid(),
@@ -77,8 +76,7 @@ export const blogsData = [
     info:
       'In this blog post I talk about how teaching helped me become a coder and draw the parallels between pedogogy and programming.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/seantarzy/bitcoin-project-frontend', // if no repo, the button will not show up
+    url: 'https://medium.com/swlh/how-being-a-school-teacher-set-me-up-to-be-a-coder-3d977cbc30b3',
   },
   {
     id: nanoid(),
@@ -87,8 +85,8 @@ export const blogsData = [
     info:
       'TED-Ed riddles flex the same kind of problem-solving muscles excersized in creating apps. I found that there was such a strong link between TED-Ed Riddles and coding, that I decided to bridge the gap even closer.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url:
+      'https://seantarzy.medium.com/solving-the-sea-monster-ted-ed-riddle-using-vanilla-javascript-800fe02be6e0',
   },
 ];
 
