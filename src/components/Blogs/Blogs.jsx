@@ -21,7 +21,6 @@ const Blogs = () => {
       setIsDesktop(false);
     }
   }, []);
-
   return (
     <section id="projects">
       <Container>
